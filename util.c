@@ -2,8 +2,7 @@
 #include "run.h"
 #include "util.h"
 
-void
-print_block_list(/* arguments */) {
+void print_block_list(/* arguments */) {
    int i = 0;
    p_meta cur = base;
 
