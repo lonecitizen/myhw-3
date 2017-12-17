@@ -10,8 +10,8 @@ void *head = 0;
 void *tail = 0;
 
 p_meta find_meta(p_meta *last, size_t size) {
-  
-  printf("ASDf");
+ 
+  printf("asdf"); 
   p_meta index = base;
   p_meta result = base;
 
@@ -51,7 +51,7 @@ p_meta find_meta(p_meta *last, size_t size) {
 
 void *m_malloc(size_t size) {
 
-	printf("asdf");
+	printf("ASDF");
 	struct rlimit rlim;
 	head = sbrk(0);
 	tail = sbrk(0);
